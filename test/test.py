@@ -57,7 +57,7 @@ def t_decrypted(data, key):
 
 
 class AES_TEST(unittest.TestCase):
-    def test_a(self):
+    def test_my(self):
         with open("input.txt", 'rb') as f:
             data = f.read()
         i = []
